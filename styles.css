@@ -22,6 +22,8 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/* section 1  */
+
 #person {
     height: 100vh;
     background: red;
@@ -43,10 +45,11 @@ body {
 }
 
 .person-content div h1 {
+    padding: 0px 4px;
     color: transparent;
 
-    padding: 0px 4px;
     position: relative;
+    width: fit-content;
 
     font-size: 4.5rem;
     line-height: 6rem;
@@ -76,6 +79,16 @@ body {
     animation: written_text_box 1s ease;
 }
 
+.person-content div h1:nth-child(1) span{
+    animation-delay: .5s;
+}
+.person-content div h1:nth-child(2) span{
+    animation-delay: 1.5s;
+}
+.person-content div h1:nth-child(3) span{
+    animation-delay: 2.5s;
+}
+
 @keyframes written_text {
     100% {
         color: var(--color-white);
@@ -96,3 +109,5 @@ body {
         left: 100%;
     }
 }
+
+/* fim section 1 */
