@@ -8,9 +8,9 @@
 
 :root {
     --color-white: #fff;
-    --color-pink: #d1217a;
+    --color-orange: #E89C4B;
     --color-black: #000;
-    --color-blue: #2986CC;
+    --color-red: #cc2929;
 }
 
 html {
@@ -26,7 +26,7 @@ body {
 
 #person {
     height: 100vh;
-    background: red;
+    background: var(--color-black);
 
     display: flex;
     align-items: center; /* Alinha verticamente */
@@ -74,9 +74,10 @@ body {
 
     width: 0px;
     height: 100%;
-    background: var(--color-pink);
+    background: var(--color-orange);
 
     animation: written_text_box 1s ease;
+    animation-delay: .5s;
 }
 
 .person-content div h1:nth-child(1) span{
@@ -96,7 +97,7 @@ body {
 }
 @keyframes written_text_name {
     100% {
-        color: var(--color-blue);
+        color: var(--color-red);
     }
 }
 @keyframes written_text_box {
