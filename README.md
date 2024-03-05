@@ -5,4 +5,4 @@
 
  https://www.youtube.com/watch?v=QRGBZQ7l1CU&list=PLcbZqXzqcoQPi2kP_XpFTUTYcPlZuJktT&index=3
 
- # Parei aqui https://youtu.be/QRGBZQ7l1CU?list=PLcbZqXzqcoQPi2kP_XpFTUTYcPlZuJktT&t=4515
+ # Parei aqui https://youtu.be/QRGBZQ7l1CU?list=PLcbZqXzqcoQPi2kP_XpFTUTYcPlZuJktT&t=5997
