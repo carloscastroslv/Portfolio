@@ -90,6 +90,10 @@ body {
     animation-delay: 2.5s;
 }
 
+.person-name {
+    margin-top: 11rem;
+}
+
 @keyframes written_text {
     100% {
         color: var(--color-white);
@@ -113,7 +117,7 @@ body {
 
 .stacks-content {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 
     flex-direction: column;
@@ -121,9 +125,16 @@ body {
 }
 .stacks ul li img {
     width: 30px;
-    height: 30px;
+    height: auto;
 
-    
+    transition: transform .3s ease;    
+}
+
+.stacks {
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
 }
 
 .stacks ul li {
@@ -131,6 +142,10 @@ body {
     align-items: center;
     margin: 10px;
     padding: 10px;
+
+
+    list-style: none;
+    position: relative;
 }
 
 .stacks ul li div img:hover{
